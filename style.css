@@ -1,0 +1,13 @@
+h1  {
+    color : blue ; font-style:italic;
+    text-align: center;
+}
+h2  {
+    color :rebeccapurple ; font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.yay {
+    color: crimson;
+    size: 30%;
+    text-align: center;
+}

@@ -1,6 +1,6 @@
-let count = 0
-function counter()
+let counter = 0
+function count()
 {
-    count += 1 
-    document.getElementById('display').innerHTML = count
+    counter += 1 
+    document.getElementById("display").innerHTML=counter
 }
