@@ -59,3 +59,17 @@ function call()
     getInputValueandOutput()
     analyze()
 }
+function reset()
+{
+    document.getElementById("display").innerHTML = ''
+    document.getElementById("result0").innerHTML = ''
+    document.getElementById("result1").innerHTML = ''
+    document.getElementById("result2").innerHTML = ''
+    document.getElementById("result3").innerHTML = ''
+    document.getElementById("result4").innerHTML = ''
+    document.getElementById("result5").innerHTML = ''
+    document.getElementById("result6").innerHTML = ''
+    document.getElementById("result7").innerHTML = ''
+    document.getElementById("result8").innerHTML = ''
+    document.getElementById("result9").innerHTML = ''
+}
