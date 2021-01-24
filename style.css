@@ -1,13 +1,19 @@
-h1  {
-    color : blue ; font-style:italic;
+.inputt {
+    text-align: center; 
+}
+input {
+    font-family: 
+    monospace
+}
+p {
+    text-align: center; font-family: 'Courier New', Courier, monospace; color: blanchedalmond;
+}
+body {
+    background-color: black;
+}
+.button {
     text-align: center;
 }
-h2  {
-    color :rebeccapurple ; font-family:'Courier New', Courier, monospace;
-    text-align: center;
-}
-.yay {
-    color: crimson;
-    size: 30%;
-    text-align: center;
+h1 {
+    text-align: center; text-decoration: underline; outline-color: blueviolet ; color: aqua; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
