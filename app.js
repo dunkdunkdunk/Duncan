@@ -1,5 +1,5 @@
 zero = "คุณกำลังจะกระพิบตา"
-one = "คุณกำลังจะสูดลมหายใจ"
+one = "คุณมีความสุขทุกครั้งที่ได้พบกับฤดูหนาว"
 two = "คุณกำลังอ่านข้อความนี้"
 three = "ที่ผ่านมาเป็นเพียงอดีตนะจ๊ะเย้ๆบรึ้ยย"
 four = "ช่วงนี้คุณต้องใส่หน้ากากอนามัยเมื่อออกจากบ้าน"
@@ -53,7 +53,15 @@ function analyze()
         } 
     }
 }
-
+function luckynumber()
+{
+    let date = new Date()
+    let millisecond = date.getMilliseconds()
+    let userluck = millisecond.toString()
+    console.log(userluck)
+    
+    document.getElementById("lucky").innerHTML=`Your current lucky number is ${userluck[0]}`
+}
 function call()
 {
     getInputValueandOutput()
@@ -72,4 +80,5 @@ function reset()
     document.getElementById("result7").innerHTML = ''
     document.getElementById("result8").innerHTML = ''
     document.getElementById("result9").innerHTML = ''
+    document.getElementById("lucky").innerHTML = ''
 }
