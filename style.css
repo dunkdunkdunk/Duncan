@@ -15,5 +15,5 @@ body {
     text-align: center;
 }
 h1 {
-    text-align: center; text-decoration: underline; outline-color: blueviolet ; color: aqua; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; text-decoration: underline; outline-color: blueviolet ; color:  rgb(109, 129, 129); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
