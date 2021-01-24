@@ -7,7 +7,7 @@ input {
     Arial, Helvetica, sans-serif
 }
 p {
-    text-align: center; font-family: 'Courier New', Courier, monospace; color: blanchedalmond;
+    text-align: center; font-family: 'Courier New', Courier, monospace; color: blanchedalmond;text-shadow: 5px 5px 6px #CE7A0F
 }
 body {
     background-color: black;
@@ -19,8 +19,11 @@ button {
     text-align: center;
 }
 h1 {
-    text-align: center; color: rgb(109, 129, 129); font-family: fantasy;
+    text-shadow: 5px 5px 6px #43caf3;color: whitesmoke; text-align: center; font-family: fantasy;
 }
 p5 {
     color: aliceblue; font-size: xx-small;
+}
+h3 {
+    color: aliceblue;
 }
