@@ -2,8 +2,9 @@
     text-align: center; 
 }
 input {
+    text-align: center;
     font-family: 
-    monospace
+    Arial, Helvetica, sans-serif
 }
 p {
     text-align: center; font-family: 'Courier New', Courier, monospace; color: blanchedalmond;
@@ -11,11 +12,14 @@ p {
 body {
     background-color: black;
 }
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .button {
     text-align: center;
 }
 h1 {
-    text-align: center; color: rgb(109, 129, 129); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; color: rgb(109, 129, 129); font-family: fantasy;
 }
 p5 {
     color: aliceblue; font-size: xx-small;
