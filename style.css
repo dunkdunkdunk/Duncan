@@ -42,11 +42,11 @@ h3 {
     100% {background-color:black;}
 }
 @keyframes movement {
-    0%   {left: 100px;  background:violet;}
+    0%   {left: 300px;  background:violet;}
     25% {background-color: blue;}
-    50%  {left: 420px; background-color: yellow; }
+    50%  {left: 690px; background-color: yellow; }
     75% {background-color: orange;}
-    100% {left:100px;background: red;}
+    100% {left:300px;background: red;}
 }
 img {
     width:200px;
