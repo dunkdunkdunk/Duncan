@@ -7,13 +7,14 @@
     </head>
     <body>
 
-        <h1>HOROSCOPE</h1>
+        <h1>HOROSCOPE</h1><h5 name="box"></h5>
+        
         <!-- User input tel num-->
         <div class="inputt">
         <input id="number" type="tel" size="40" maxlength="10" placeholder="Please input your phone number">
         </div>
         <div class="button">
-        <button onclick="call()" >Submit</button><br>
+        <button onclick="call()">Submit</button><br>
         <button onclick="reset()" type="reset">Click me to start again</button><br><br><br><br>
         <button id="date" onclick="luckynumber()">Your lucky number</button>
 
@@ -37,6 +38,9 @@
         <div name="wizard">
             <img src="wizard.gif" >
         </div>
+
+        
+
         <script src="app.js"></script>
     </body>
 </html>
