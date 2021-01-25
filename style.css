@@ -2,6 +2,7 @@
     text-align: center; 
 }
 input {
+    width: 300px;
     text-align: center;
     font-family: 
     Arial, Helvetica, sans-serif
@@ -12,7 +13,7 @@ p {
 body {
     background-color:black;
     animation-name : changer;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     
 }
@@ -36,12 +37,29 @@ h3 {
 @keyframes changer {
     0% {background-color:black;}
     25% {background-color:darkblue;}
-    50% {background-color: #b3d45c}
-    75% {background-color:rgb(79, 56, 122);}
+    50% {background-color: #523e3e}
+    75% {background-color:rgb(75, 94, 66);}
     100% {background-color:black;}
 }
+@keyframes movement {
+    0%   {left: 100px;  background:violet;}
+    25% {background-color: blue;}
+    50%  {left: 420px; background-color: yellow; }
+    75% {background-color: orange;}
+    100% {left:100px;background: red;}
+}
 img {
-    width: 30%;
+    width:200px;
     display: block;
     margin-left: auto; margin-right: auto;
+}
+h5{
+    width: 10px;
+    height: 10px;
+    background: red;
+    position: relative;
+    animation: movement 10s infinite;
+}
+.box{
+    text-align: center;
 }
