@@ -10,14 +10,20 @@ p {
     text-align: center; font-family: 'Courier New', Courier, monospace; color: blanchedalmond;text-shadow: 5px 5px 6px #CE7A0F
 }
 body {
-    background-color: black;
+    background-color:black;
+    animation-name : changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
 }
 button {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;cursor: pointer;
 }
 .button {
-    text-align: center;
+    text-align: center;border: none;
 }
+.button :hover{background-color: rgb(255, 0, 119);}
+.button :active{box-shadow:black ;transform: translateX(10px);}
 h1 {
     text-shadow: 5px 5px 6px #43caf3;color: whitesmoke; text-align: center; font-family: fantasy;
 }
@@ -26,4 +32,16 @@ p5 {
 }
 h3 {
     color: aliceblue;
+}
+@keyframes changer {
+    0% {background-color:black;}
+    25% {background-color:darkblue;}
+    50% {background-color: #b3d45c}
+    75% {background-color:rgb(79, 56, 122);}
+    100% {background-color:black;}
+}
+img {
+    width: 30%;
+    display: block;
+    margin-left: auto; margin-right: auto;
 }
