@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
 
-        <title>HOROSCOPE หน่อยมั้ย</title>
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-        <h1>HOROSCOPE</h1><h5 name="box"></h5>
-        
-        <!-- User input tel num-->
-        <div class="inputt">
+    <title>HOROSCOPE หน่อยมั้ย</title>
+</head>
+
+<body>
+
+    <h1>HOROSCOPE</h1>
+    <h5 name="box"></h5>
+
+    <!-- User input tel num-->
+    <div class="inputt">
         <input id="number" type="tel" size="40" maxlength="10" placeholder="Please input your phone number">
-        </div>
-        <div class="button">
+    </div>
+    <input type="file" accept="image/*" capture="camera">
+    <div class="button">
         <button onclick="call()">Submit</button><br>
         <button onclick="reset()" type="reset">Click me to start again</button><br><br><br><br>
         <button id="date" onclick="luckynumber()">Your lucky number</button>
 
-        </div>
-        <p id=lucky></p>
+    </div>
+    <p id=lucky></p>
 
-        <p id="display"></p>
+    <p id="display"></p>
 
-        <p id="result0"></p>
-        <p id="result1"></p>
-        <p id="result2"></p>
-        <p id="result3"></p>
-        <p id="result4"></p>
-        <p id="result5"></p>
-        <p id="result6"></p>
-        <p id="result7"></p>
-        <p id="result8"></p>
-        <p id="result9"></p>
-        <h3>by Dunk</h3>
+    <p id="result0"></p>
+    <p id="result1"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <p id="result5"></p>
+    <p id="result6"></p>
+    <p id="result7"></p>
+    <p id="result8"></p>
+    <p id="result9"></p>
+    <h3>by Dunk</h3>
 
-        <div name="wizard">
-            <img src="wizard.gif" >
-        </div>
+    <div name="wizard">
+        <img src="wizard.gif">
+    </div>
 
-        
 
-        <script src="app.js"></script>
-    </body>
+
+    <script src="app.js"></script>
+</body>
+
 </html>
